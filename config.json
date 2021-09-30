@@ -12,7 +12,6 @@
     "css": {
       "transformGroup": "css",
       "buildPath": "build/css/",
-
       "files": [
         {
           "format": "css/variables",
