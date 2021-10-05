@@ -22,7 +22,18 @@
             "category": "alias"
           }
         }
-      }]
+      },
+      {
+        "destination": "_components.scss",
+        "format": "scss/map-deep",
+        "mapName": "components",
+        "filter": {
+          "attributes": {
+            "category": "components"
+          }
+        }
+      }
+    ]
     }
   }
 }

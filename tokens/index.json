@@ -108,5 +108,97 @@
     "attributes": {
       "category": "alias"
     }
+  },
+  "link": {
+    "color": {
+      "value": "inherit",
+      "attributes": {
+        "category": "components"
+      }
+    },
+    "font-size": {
+      "value": "inherit",
+      "attributes": {
+        "category": "components"
+      }
+    },
+    "text-decoration": {
+      "value": "none",
+      "attributes": {
+        "category": "components"
+      }
+    }
+  },
+  "link-hover": {
+    "color": {
+      "value": "{blue.500.value}",
+      "attributes": {
+        "category": "components"
+      }
+    },
+    "text-decoration": {
+      "value": "underline",
+      "attributes": {
+        "category": "components"
+      }
+    }
+  },
+  "overline": {
+    "background-color": {
+      "value": "transparent",
+      "attributes": {
+        "category": "components"
+      }
+    },
+    "border-color": {
+      "value": "transparent transparent {primary-color.value} transparent",
+      "attributes": {
+        "category": "components"
+      }
+    },
+    "border-style": {
+      "value": "solid",
+      "attributes": {
+        "category": "components"
+      }
+    },
+    "border-width": {
+      "value": "0 0 1px 0",
+      "attributes": {
+        "category": "components"
+      }
+    },
+    "font-weight": {
+      "value": "200",
+      "attributes": {
+        "category": "components"
+      }
+    },
+    "color": {
+      "value": "inherit",
+      "attributes": {
+        "category": "components"
+      }
+    }
+  },
+  "date": {
+    "background-color": {
+      "value": "transparent",
+      "attributes": {
+        "category": "components"
+      }
+    },
+    "color": {
+      "value": "inherit",
+      "attributes": {
+        "category": "components"
+      }
+    },
+    "font-weight": {
+      "value": "{font-weight.700.value}",
+      "attributes": {
+        "category": "components"
+      }
+    }
   }
 }
