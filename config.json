@@ -1,23 +1,19 @@
 {
-  "source": ["tokens/**/*.json"],
+  "source": ["tokens/*.json"],
   "platforms": {
     "scss": {
       "transformGroup": "scss",
-      "buildPath": "build/scss/",
+      "buildPath": "build/",
       "files": [{
-        "destination": "_variables.scss",
-        "format": "scss/variables"
-      }]
-    },
-    "css": {
-      "transformGroup": "css",
-      "buildPath": "build/css/",
-      "files": [
-        {
-          "format": "css/variables",
-          "destination": "variables.css"
+        "destination": "_global.scss",
+        "format": "scss/map-flat",
+        "mapName": "global",
+        "filter": {
+          "attributes": {
+            "category": "global"
+          }
         }
-      ]
+      }]
     }
   }
 }
