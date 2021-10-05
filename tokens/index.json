@@ -200,5 +200,37 @@
         "category": "components"
       }
     }
+  },
+  "list": {
+    "components": {
+      "date": {
+        "font-weight": {
+          "value": "900",
+          "attributes": {
+            "category": "blocks"
+          }
+        }
+      }
+    }
+  },
+  "links-bar": {
+    "font-size": {
+      "value": "14px",
+      "attributes": {
+        "category": "blocks"
+      }
+    },
+    "font-family": {
+      "value": "{primary-font-family.value}",
+      "attributes": {
+        "category": "blocks"
+      }
+    },
+    "margin-bottom": {
+      "value": "{spacing.150.value}",
+      "attributes": {
+        "category": "blocks"
+      }
+    }
   }
 }

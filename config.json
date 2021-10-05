@@ -36,6 +36,16 @@
               "category": "components"
             }
           }
+        },
+        {
+          "destination": "_blocks.scss",
+          "format": "scss/map-deep",
+          "mapName": "blocks",
+          "filter": {
+            "attributes": {
+              "category": "blocks"
+            }
+          }
         }
       ]
     }
