@@ -1,39 +1,43 @@
 {
-  "source": ["tokens/*.json"],
+  "source": [
+    "tokens/*.json"
+  ],
   "platforms": {
     "scss": {
       "transformGroup": "scss",
       "buildPath": "build/",
-      "files": [{
-        "destination": "_global.scss",
-        "format": "scss/map-flat",
-        "mapName": "global",
-        "filter": {
-          "attributes": {
-            "category": "global"
+      "files": [
+        {
+          "destination": "_global.scss",
+          "format": "scss/map-flat",
+          "mapName": "global",
+          "filter": {
+            "attributes": {
+              "category": "global"
+            }
+          }
+        },
+        {
+          "destination": "_alias.scss",
+          "format": "scss/map-flat",
+          "mapName": "alias",
+          "filter": {
+            "attributes": {
+              "category": "alias"
+            }
+          }
+        },
+        {
+          "destination": "_components.scss",
+          "format": "scss/map-deep",
+          "mapName": "components",
+          "filter": {
+            "attributes": {
+              "category": "components"
+            }
           }
         }
-      }, {
-        "destination": "_alias.scss",
-        "format": "scss/map-flat",
-        "mapName": "alias",
-        "filter": {
-          "attributes": {
-            "category": "alias"
-          }
-        }
-      },
-      {
-        "destination": "_components.scss",
-        "format": "scss/map-deep",
-        "mapName": "components",
-        "filter": {
-          "attributes": {
-            "category": "components"
-          }
-        }
-      }
-    ]
+      ]
     }
   }
 }
