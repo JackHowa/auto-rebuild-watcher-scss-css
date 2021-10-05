@@ -91,7 +91,22 @@
       "value": 900
     }
   },
-  "nope": {
-    "value": "rgb(25 25 25)"
+  "primary-font-family": {
+    "value": "Arial",
+    "attributes": {
+      "category": "alias"
+    }
+  },
+  "secondary-font-family": {
+    "value": "Times New Roman",
+    "attributes": {
+      "category": "alias"
+    }
+  },
+  "primary-color": {
+    "value": "{blue.500.value}",
+    "attributes": {
+      "category": "alias"
+    }
   }
 }

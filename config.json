@@ -13,6 +13,15 @@
             "category": "global"
           }
         }
+      }, {
+        "destination": "_alias.scss",
+        "format": "scss/map-flat",
+        "mapName": "alias",
+        "filter": {
+          "attributes": {
+            "category": "alias"
+          }
+        }
       }]
     }
   }
