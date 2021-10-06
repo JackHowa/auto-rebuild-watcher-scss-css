@@ -1,0 +1,236 @@
+{
+  "gray": {
+    "50": {
+      "attributes": {
+        "category": "global"
+      },
+      "value": "rgb(218 218 218)"
+    },
+    "100": {
+      "attributes": {
+        "category": "global"
+      },
+      "value": "rgb(87 87 87)"
+    },
+    "900": {
+      "attributes": {
+        "category": "global"
+      },
+      "value": "rgb(25 25 25)"
+    }
+  },
+  "blue": {
+    "500": {
+      "attributes": {
+        "category": "global"
+      },
+      "value": "rgb(79 93 117)"
+    },
+    "600": {
+      "attributes": {
+        "category": "global"
+      },
+      "value": "rgb(80 103 127)"
+    }
+  },
+  "spacing": {
+    "25": {
+      "attributes": {
+        "category": "global"
+      },
+      "value": "4px"
+    },
+    "50": {
+      "attributes": {
+        "category": "global"
+      },
+      "value": "8px"
+    },
+    "100": {
+      "attributes": {
+        "category": "global"
+      },
+      "value": "16px"
+    },
+    "150": {
+      "attributes": {
+        "category": "global"
+      },
+      "value": "24px"
+    },
+    "200": {
+      "attributes": {
+        "category": "global"
+      },
+      "value": "32px"
+    }
+  },
+  "font-weight": {
+    "100": {
+      "attributes": {
+        "category": "global"
+      },
+      "value": 100
+    },
+    "400": {
+      "attributes": {
+        "category": "global"
+      },
+      "value": 400
+    },
+    "700": {
+      "attributes": {
+        "category": "global"
+      },
+      "value": 700
+    },
+    "900": {
+      "attributes": {
+        "category": "global"
+      },
+      "value": 900
+    }
+  },
+  "primary-font-family": {
+    "value": "Arial",
+    "attributes": {
+      "category": "alias"
+    }
+  },
+  "secondary-font-family": {
+    "value": "Times New Roman",
+    "attributes": {
+      "category": "alias"
+    }
+  },
+  "primary-color": {
+    "value": "{blue.500.value}",
+    "attributes": {
+      "category": "alias"
+    }
+  },
+  "link": {
+    "color": {
+      "value": "inherit",
+      "attributes": {
+        "category": "components"
+      }
+    },
+    "font-size": {
+      "value": "inherit",
+      "attributes": {
+        "category": "components"
+      }
+    },
+    "text-decoration": {
+      "value": "none",
+      "attributes": {
+        "category": "components"
+      }
+    }
+  },
+  "link-hover": {
+    "color": {
+      "value": "{blue.500.value}",
+      "attributes": {
+        "category": "components"
+      }
+    },
+    "text-decoration": {
+      "value": "underline",
+      "attributes": {
+        "category": "components"
+      }
+    }
+  },
+  "overline": {
+    "background-color": {
+      "value": "transparent",
+      "attributes": {
+        "category": "components"
+      }
+    },
+    "border-color": {
+      "value": "transparent transparent {primary-color.value} transparent",
+      "attributes": {
+        "category": "components"
+      }
+    },
+    "border-style": {
+      "value": "solid",
+      "attributes": {
+        "category": "components"
+      }
+    },
+    "border-width": {
+      "value": "0 0 1px 0",
+      "attributes": {
+        "category": "components"
+      }
+    },
+    "font-weight": {
+      "value": "200",
+      "attributes": {
+        "category": "components"
+      }
+    },
+    "color": {
+      "value": "inherit",
+      "attributes": {
+        "category": "components"
+      }
+    }
+  },
+  "date": {
+    "background-color": {
+      "value": "transparent",
+      "attributes": {
+        "category": "components"
+      }
+    },
+    "color": {
+      "value": "inherit",
+      "attributes": {
+        "category": "components"
+      }
+    },
+    "font-weight": {
+      "value": "{font-weight.700.value}",
+      "attributes": {
+        "category": "components"
+      }
+    }
+  },
+  "list": {
+    "components": {
+      "date": {
+        "font-weight": {
+          "value": "900",
+          "attributes": {
+            "category": "blocks"
+          }
+        }
+      }
+    }
+  },
+  "links-bar": {
+    "font-size": {
+      "value": "14px",
+      "attributes": {
+        "category": "blocks"
+      }
+    },
+    "font-family": {
+      "value": "{primary-font-family.value}",
+      "attributes": {
+        "category": "blocks"
+      }
+    },
+    "margin-bottom": {
+      "value": "{spacing.150.value}",
+      "attributes": {
+        "category": "blocks"
+      }
+    }
+  }
+}

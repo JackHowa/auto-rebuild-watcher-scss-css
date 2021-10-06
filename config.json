@@ -1,21 +1,49 @@
 {
-  "source": ["tokens/**/*.json"],
+  "source": ["/Users/howardj/sites/Fusion-News-Theme/tokens.json"],
   "platforms": {
     "scss": {
       "transformGroup": "scss",
-      "buildPath": "build/scss/",
-      "files": [{
-        "destination": "_variables.scss",
-        "format": "scss/variables"
-      }]
-    },
-    "css": {
-      "transformGroup": "css",
-      "buildPath": "build/css/",
+      "buildPath": "/Users/howardj/sites/fusion-news-theme-blocks/blocks/enhanced-styles-concept/theme/",
       "files": [
         {
-          "format": "css/variables",
-          "destination": "variables.css"
+          "destination": "_global.scss",
+          "format": "scss/map-flat",
+          "mapName": "global",
+          "filter": {
+            "attributes": {
+              "category": "global"
+            }
+          }
+        },
+        {
+          "destination": "_alias.scss",
+          "format": "scss/map-flat",
+          "mapName": "alias",
+          "filter": {
+            "attributes": {
+              "category": "alias"
+            }
+          }
+        },
+        {
+          "destination": "_components.scss",
+          "format": "scss/map-deep",
+          "mapName": "components",
+          "filter": {
+            "attributes": {
+              "category": "components"
+            }
+          }
+        },
+        {
+          "destination": "_blocks.scss",
+          "format": "scss/map-deep",
+          "mapName": "block",
+          "filter": {
+            "attributes": {
+              "category": "blocks"
+            }
+          }
         }
       ]
     }
