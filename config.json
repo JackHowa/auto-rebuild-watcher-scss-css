@@ -1,11 +1,9 @@
 {
-  "source": [
-    "tokens/*.json"
-  ],
+  "source": ["/Users/howardj/sites/Fusion-News-Theme/tokens.json"],
   "platforms": {
     "scss": {
       "transformGroup": "scss",
-      "buildPath": "build/",
+      "buildPath": "/Users/howardj/sites/fusion-news-theme-blocks/blocks/enhanced-styles-concept/theme/",
       "files": [
         {
           "destination": "_global.scss",
@@ -40,7 +38,7 @@
         {
           "destination": "_blocks.scss",
           "format": "scss/map-deep",
-          "mapName": "blocks",
+          "mapName": "block",
           "filter": {
             "attributes": {
               "category": "blocks"
